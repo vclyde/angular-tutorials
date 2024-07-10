@@ -5,9 +5,10 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
+  template: '<h1>Hello World</h1>',
+  // templateUrl: 'Hello World',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'portal-app';
+  title = 'homes';
 }
