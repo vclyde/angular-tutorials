@@ -16,9 +16,6 @@ import { HousingService } from '../housing.service';
     </form>
   </section>
   <section class="results">
-    @for (housingLocation of housingLocationList; track housingLocation.id) {
-       <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
-    }
     <app-housing-location 
       *ngFor="let housingLocation of housingLocationList"
       [housingLocation]="housingLocation"
