@@ -17,7 +17,7 @@ import { HomeComponent } from './home/home.component';
       <!-- <app-home></app-home> -->
       <router-outlet></router-outlet>
     </section>
-  </main>`,
+    `,
   // templateUrl: 'Hello World',
   styleUrl: './app.component.css'
 })

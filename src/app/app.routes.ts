@@ -12,7 +12,7 @@ export const routes: Routes = [
         path: 'details/:id',
         component: DetailsComponent,
         title: 'Home details'
-    }
+    },
 ];
 
 export default routes;
