@@ -1,0 +1,2 @@
+# Run test json-webserver
+json-server --watch db.json
